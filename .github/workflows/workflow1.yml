@@ -9,6 +9,7 @@ jobs:
   usingaction:
     runs-on: ubuntu-latest
     steps:
+    - run: curl https://example.com
     - run: echo 'Hello World' >> $GITHUB_STEP_SUMMARY
     - uses: nicruo/mynewaction@v1.0.1
   work:
