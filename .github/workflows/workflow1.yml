@@ -9,7 +9,7 @@ jobs:
   usingaction:
     runs-on: ubuntu-latest
     steps:
-    - uses: nicruo/mynewaction@main
+    - uses: nicruo/mynewaction@v1
   work:
     runs-on: ubuntu-latest
     steps:
