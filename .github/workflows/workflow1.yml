@@ -1,4 +1,5 @@
-name: First Workflow
+name: First Workflow 
+run-name: Run on branch ${{ github.ref }}
 
 on:
   push:
