@@ -13,3 +13,9 @@ jobs:
         pwd
         ls -al
     - run: echo hello world
+  anotherjob:
+    needs: work
+    runs-on: windows-latest
+    steps:
+    - run: pwd
+    - run: ls
