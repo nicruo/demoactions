@@ -7,4 +7,9 @@ jobs:
   work:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout
+      uses: actions/checkout@v4.1.7
+    - run: |
+        pwd
+        ls -al
     - run: echo hello world
